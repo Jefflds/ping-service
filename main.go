@@ -35,7 +35,7 @@ func ping(url string, expectedResult string) {
 			}
 			resp.Body.Close()
 		}
-		time.Sleep(30 * time.Minute)
+		time.Sleep(10 * time.Minute)
 	}
 }
 
